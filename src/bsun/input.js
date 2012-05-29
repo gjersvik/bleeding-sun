@@ -1,7 +1,7 @@
-YUI.add('spacemmo-input', function (Y) {
+YUI.add('bsun-input', function (Y) {
     'use strict';
 
-    var ns = Y.namespace('spacemmo');
+    var ns = Y.namespace('bsun');
     ns.Input = function (gamenode) {
         var accel = false,
             breaks = false,

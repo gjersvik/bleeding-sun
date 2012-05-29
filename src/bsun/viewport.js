@@ -1,6 +1,6 @@
-YUI.add('spacemmo-viewport', function (Y) {
+YUI.add('bsun-viewport', function (Y) {
     'use strict';
-    var ns = Y.namespace('spacemmo');
+    var ns = Y.namespace('bsun');
 
     ns.makeViewport = function () {
         var rect = ns.makeRect(0, 0, 0, 0),
@@ -53,5 +53,5 @@ YUI.add('spacemmo-viewport', function (Y) {
     };
 
 }, '0.1', {
-    requires: ['node', 'spacemmo-shapes', 'spacemmo-scene']
+    requires: ['node', 'bsun-shapes', 'bsun-scene']
 });

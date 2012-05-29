@@ -1,6 +1,6 @@
-YUI.add('spacemmo-scene', function (Y) {
+YUI.add('bsun-scene', function (Y) {
     'use strict';
-    var ns = Y.namespace('spacemmo'),
+    var ns = Y.namespace('bsun'),
         layersbase = null;
 
     layersbase = {
@@ -116,5 +116,5 @@ YUI.add('spacemmo-scene', function (Y) {
     };
 
 }, '0.1', {
-    requires: ['spacemmo-shapes']
+    requires: ['bsun-shapes']
 });

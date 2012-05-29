@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SpaceMMO Alfa Asteroid</title>
+        <title>Bleeding Sun Asteroid</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="loader">
-            <h1 id="loader_head">SpaceMMO Alfa Asteroid</h1>
+            <h1 id="loader_head">Bleeding Sun Asteroid</h1>
             <p id="loader_text">
                 If you can read this then most likely your internet is slow.<br>
                 If you see this for more then a couple of seconds. I think we have a problem.
@@ -31,10 +31,10 @@
         <script src="src/bsun/view.js"></script>
         <script src="src/bsun/viewport.js"></script>
         <script>
-            YUI().use('spacemmo-app','node', function (Y) {
+            YUI().use('bsun-app','node', function (Y) {
                 Y.one('#loader_1').setStyle('display','none');
                 Y.one('#loader_2').setStyle('display','block');
-                Y.spacemmo.bootstrap();
+                Y.bsun.bootstrap();
             });
         </script>
     </body>

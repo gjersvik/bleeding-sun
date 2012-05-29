@@ -1,6 +1,6 @@
-YUI.add('spacemmo-gridview', function (Y) {
+YUI.add('bsun-gridview', function (Y) {
     'use strict';
-    var ns = Y.namespace('spacemmo');
+    var ns = Y.namespace('bsun');
 
     ns.GridView = function () {
         var that = Y.Object(ns.makeView()),
@@ -63,5 +63,5 @@ YUI.add('spacemmo-gridview', function (Y) {
     };
 
 }, '0.1', {
-    requires: ['spacemmo-view']
+    requires: ['bsun-view']
 });

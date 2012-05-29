@@ -1,6 +1,6 @@
-YUI.add('spacemmo-view', function (Y) {
+YUI.add('bsun-view', function (Y) {
     'use strict';
-    var ns = Y.namespace('spacemmo');
+    var ns = Y.namespace('bsun');
 
     ns.makeView = function () {
         var that = {};
@@ -17,5 +17,5 @@ YUI.add('spacemmo-view', function (Y) {
     }; 
 
 }, '0.1', {
-    requires: ['spacemmo-shapes']
+    requires: ['bsun-shapes']
 });

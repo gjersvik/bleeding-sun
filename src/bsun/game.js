@@ -1,14 +1,14 @@
-YUI.add('spacemmo-game', function (Y) {
+YUI.add('bsun-game', function (Y) {
     'use strict';
 
-    var ns = Y.namespace('spacemmo');
+    var ns = Y.namespace('bsun');
     ns.Game = function () {
         var that = {},
             gamenode = Y.Node.create('<div id="game"></div>'),
-            viewport = Y.spacemmo.makeViewport(),
-            scene = Y.spacemmo.makeScene(10000, 10000),
-            ship = Y.spacemmo.Ship(),
-            gridview = Y.spacemmo.GridView();
+            viewport = Y.bsun.makeViewport(),
+            scene = Y.bsun.makeScene(10000, 10000),
+            ship = Y.bsun.Ship(),
+            gridview = Y.bsun.GridView();
 
         Y.augment(that, Y.EventTarget);
         
@@ -60,7 +60,7 @@ YUI.add('spacemmo-game', function (Y) {
 }, '0.1', {
     requires: ['node',
                'event',
-               'spacemmo-ship',
-               'spacemmo-viewport',
-               'spacemmo-gridview']
+               'bsun-ship',
+               'bsun-viewport',
+               'bsun-gridview']
 });

@@ -1,6 +1,6 @@
-YUI.add('spacemmo-sprite', function (Y) {
+YUI.add('bsun-sprite', function (Y) {
     'use strict';
-    var ns = Y.namespace('spacemmo'),
+    var ns = Y.namespace('bsun'),
         lang = Y.Lang;
     
     ns.makeSprite = function (x,y,r) {
@@ -45,7 +45,7 @@ YUI.add('spacemmo-sprite', function (Y) {
        
 
 }, '0.1', {
-    requires: ['spacemmo-shapes']
+    requires: ['bsun-shapes']
 });
 
 

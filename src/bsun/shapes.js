@@ -1,6 +1,6 @@
-YUI.add('spacemmo-shapes', function (Y) {
+YUI.add('bsun-shapes', function (Y) {
     'use strict';
-    var ns = Y.namespace('spacemmo'),
+    var ns = Y.namespace('bsun'),
         lang = Y.Lang,
         pointbase = null,
         rectbase = null,

@@ -1,7 +1,7 @@
-YUI.add('spacemmo-gametimer', function (Y) {
+YUI.add('bsun-gametimer', function (Y) {
     'use strict';
 
-    var ns = Y.namespace('spacemmo');
+    var ns = Y.namespace('bsun');
     ns.Gametimer = function () {
         var that = {},
             time = 0,

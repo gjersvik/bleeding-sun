@@ -1,6 +1,6 @@
-YUI.add('spacemmo-ship', function (Y) {
+YUI.add('bsun-ship', function (Y) {
     'use strict';
-    var ns = Y.namespace('spacemmo'),
+    var ns = Y.namespace('bsun'),
         shipcanvas = Y.Node.create('<canvas height="50" width="60"></canvas>').getDOMNode(),
         egninecanvas = Y.Node.create('<canvas height="30" width="20"></canvas>').getDOMNode();
 
@@ -73,5 +73,5 @@ YUI.add('spacemmo-ship', function (Y) {
     };
 
 }, '0.1', {
-    requires: ['spacemmo-input','spacemmo-sprite']
+    requires: ['bsun-input','bsun-sprite']
 });

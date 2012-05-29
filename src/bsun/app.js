@@ -1,11 +1,11 @@
-YUI.add('spacemmo-app', function (Y) {
+YUI.add('bsun-app', function (Y) {
     'use strict';
 
-    var ns = Y.namespace('spacemmo');
+    var ns = Y.namespace('bsun');
     ns.App = function () {
-        var input = Y.spacemmo.Input(Y),
-            game = Y.spacemmo.Game(),
-            gametimer = Y.spacemmo.Gametimer();
+        var input = Y.bsun.Input(Y),
+            game = Y.bsun.Game(),
+            gametimer = Y.bsun.Gametimer();
 
         gametimer.on('tick', game.tick);
         gametimer.on('render', game.render);
@@ -35,7 +35,7 @@ YUI.add('spacemmo-app', function (Y) {
 }, '0.1', {
     requires: ['node',
                'event',
-               'spacemmo-input',
-               'spacemmo-game',
-               'spacemmo-gametimer']
+               'bsun-input',
+               'bsun-game',
+               'bsun-gametimer']
 });
