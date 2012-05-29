@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SpaceMMO Alfa Asteroid</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="loader">
+            <h1 id="loader_head">SpaceMMO Alfa Asteroid</h1>
+            <p id="loader_text">
+                If you can read this then most likely your internet is slow.<br>
+                If you see this for more then a couple of seconds. I think we have a problem.
+            </p>
+            <div id="loader_msg">
+                <p id="loader_1">1 of 3 Splash screen done. Loading javascript.</p>
+                <p id="loader_2">2 of 3 Javascript loaded. Starting game.</p>
+                <p id="loader_3">3 of 3 Game is running. Switching to main menu.</p>
+            </div>
+        </div>
+        <script src="http://yui.yahooapis.com/3.5.0/build/yui/yui-min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/gametimer.js"></script>
+        <script src="js/gridview.js"></script>
+        <script src="js/input.js"></script>
+        <script src="js/scene.js"></script>
+        <script src="js/shapes.js"></script>
+        <script src="js/ship.js"></script>
+        <script src="js/sprite.js"></script>
+        <script src="js/view.js"></script>
+        <script src="js/viewport.js"></script>
+        <script>
+            YUI().use('spacemmo-app','node', function (Y) {
+                Y.one('#loader_1').setStyle('display','none');
+                Y.one('#loader_2').setStyle('display','block');
+                Y.spacemmo.bootstrap();
+            });
+        </script>
+    </body>
+</html>
